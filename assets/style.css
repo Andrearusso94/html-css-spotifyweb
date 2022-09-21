@@ -46,10 +46,12 @@ img{
     
 }
 
+#site_main{
+    height: calc(100vh - 100px);
+}
+
 .menu{
     background-color: var(--dark);
-    height: 90vh;
-    width: 15vw;
     padding: 1rem;
 }
 
@@ -76,24 +78,21 @@ img{
 
 .upgrade{
     background-color: var(--primary);
-    width: 85vw;
-    height: 10vh;
+    width: 100%;
+    height: 100px;
     margin-left: -1.8rem;
 }
 
 .music_play{
     background-color: var(--darker);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 10vh;  
+    height: 100px;  
     
 }
 
 .played{
     background-color: var(--dark);
-    width: 85vw;
-    height: 80vh;
+    width: 100%;
+    height: 100%;
     margin-left: -1.8rem;
     padding-bottom: 2.5rem;
 }
