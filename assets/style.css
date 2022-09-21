@@ -12,10 +12,7 @@
     --dark: rgba(8, 11, 18, 1);
     --light: rgba(255, 255, 255, 1);
 }
-.container{
-    width: 100vw;
-    height: 100vh;
-}
+
 
 
 
@@ -38,7 +35,7 @@ img{
 
 .menu{
     background-color: var(--dark);
-    height: 665px;
+    height: 90vh;
     width: 200px;
     padding: 1rem;
 }
@@ -62,4 +59,9 @@ img{
     text-decoration: none;
     color: var(--secondry);
     padding-top: 0.5rem;
+}
+
+.music_play{
+    background-color: var(--darker);
+    height: 10vh;
 }
