@@ -47,3 +47,19 @@ img{
     width: 80%;
     
 }
+.home_menu{
+    padding-top: 1rem;
+}
+.home_menu a, li{
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--secondry);
+    padding-top: 0.5rem;
+}
+
+.playlist a, li{
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--secondry);
+    padding-top: 0.5rem;
+}
