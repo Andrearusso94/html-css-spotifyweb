@@ -3,3 +3,12 @@
     padding:0;
     margin: 0;
 }
+
+:root{
+    --primary: rgba(20, 25, 34, 1);
+    --secondry:rgba(117, 119, 124, 1);
+    --secondary-soft: rgba(163, 163, 163, 1);
+    --darker: rgba(20, 25, 34, 1);
+    --dark: rgba(8, 11, 18, 1);
+    --light: rgba(255, 255, 255, 1);
+}
