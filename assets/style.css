@@ -91,11 +91,9 @@ img{
 
 .played{
     background-color: var(--dark);
-    
     height: 100%;
-    margin-left: -1.8rem;
-    padding-bottom: 2.5rem;
-    overflow: auto;
+    
+    overflow:auto;
 }
 
 .nav{
