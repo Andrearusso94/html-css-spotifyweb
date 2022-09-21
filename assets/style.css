@@ -12,3 +12,38 @@
     --dark: rgba(8, 11, 18, 1);
     --light: rgba(255, 255, 255, 1);
 }
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.row{
+    display: flex;
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.col_2{
+    width: calc(100% / 12 * 2);
+}
+.col_10{
+    width: calc(100% / 12 * 10);
+}
+
+.menu{
+    background-color: var(--dark);
+    height: 665px;
+    width: 200px;
+    padding: 1rem;
+}
+
+.menu img{
+    width: 80%;
+    
+}
