@@ -36,7 +36,7 @@ img{
 .menu{
     background-color: var(--dark);
     height: 90vh;
-    width: 200px;
+    width: 15vw;
     padding: 1rem;
 }
 
@@ -59,6 +59,13 @@ img{
     text-decoration: none;
     color: var(--secondry);
     padding-top: 0.5rem;
+}
+
+.upgrade{
+    background-color: var(--primary);
+    width: 90vw;
+    height: 10vh;
+    margin-left: -1.8rem;
 }
 
 .music_play{
