@@ -48,7 +48,12 @@ img{
     height: calc(100vh - 100px);
     overflow: hidden;
 }
-
+ .p{
+    height: 100%;
+ }
+ .he{
+    height: 100%;
+ }
 .menu{
     background-color: var(--dark);
     padding: 1rem;
