@@ -35,7 +35,8 @@ img{
 
 .container{
     position: relative;
-    min-height: 100vh;
+    height: 100%;
+  
 }
 
 .col_2{
@@ -91,9 +92,8 @@ img{
 
 .played{
     background-color: var(--dark);
-    height: 100%;
-    
-    overflow:auto;
+    height:calc(100% - 100px);
+    overflow-y:scroll;
 }
 
 .nav{
