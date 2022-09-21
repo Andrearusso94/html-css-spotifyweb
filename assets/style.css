@@ -32,12 +32,9 @@ h6{
 img{
     max-width: 100%;
 }
-
-.container{
-    position: relative;
+ .container{
     height: 100%;
-  
-}
+ }
 
 .col_2{
     width: calc(100% / 12 * 2);
@@ -49,6 +46,7 @@ img{
 
 #site_main{
     height: calc(100vh - 100px);
+    overflow: hidden;
 }
 
 .menu{
