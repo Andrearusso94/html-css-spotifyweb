@@ -53,6 +53,7 @@ img{
 .menu{
     background-color: var(--dark);
     padding: 1rem;
+    height: calc(100vh - 100px);
 }
 
 .menu img{
@@ -78,7 +79,6 @@ img{
 
 .upgrade{
     background-color: var(--primary);
-    width: 100%;
     height: 100px;
     margin-left: -1.8rem;
 }
@@ -91,10 +91,11 @@ img{
 
 .played{
     background-color: var(--dark);
-    width: 100%;
+    
     height: 100%;
     margin-left: -1.8rem;
     padding-bottom: 2.5rem;
+    overflow: auto;
 }
 
 .nav{
