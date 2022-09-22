@@ -83,7 +83,7 @@ img{
 }
 
 .upgrade{
-    
+    display: flex;
     background-color: var(--primary);
     height: 80px;
    
