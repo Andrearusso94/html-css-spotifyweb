@@ -4,6 +4,8 @@
     margin: 0;
 }
 
+
+/*utilyties*/
 :root{
     --primary: rgba(20, 25, 34, 1);
     --secondry:rgba(117, 119, 124, 1);
@@ -12,8 +14,6 @@
     --dark: rgba(8, 11, 18, 1);
     --light: rgba(255, 255, 255, 1);
 }
-
-
 
 h2, h4, h5{
     color: var(--light);
@@ -44,6 +44,7 @@ img{
     width: calc(100% / 12 * 10);
     
 }
+/* end region utilyties*/
 
 #site_main{
     height: calc(100vh - 80px);
@@ -55,6 +56,7 @@ img{
  .he{
     height: 100%;
  }
+ /*region menu and home menu*/
 .menu{
     background-color: var(--dark);
     padding: 0.75rem;
@@ -78,7 +80,8 @@ img{
     color: var(--secondry);
     padding-top: 0.5rem;
 }
-
+/*end home menu*/
+/*playlist*/
 .playlist a, li{
     list-style-type: none;
     text-decoration: none;
@@ -92,8 +95,8 @@ img{
     padding:1rem;
     
 }
-
-
+/*end playlist*/
+/*profile*/
 .profile i{
     color: var(--secondary-soft);
 }
@@ -103,7 +106,9 @@ img{
 .profile img{
     width: 5%;
 }
+/*end profile*/
 
+/*upgrade*/
 .upgrade{
     padding-top: 1.5rem;
     background-color: var(--primary);
@@ -122,28 +127,9 @@ img{
    border-radius: 2rem;
    
 }
+/*end upgrade*/
 
-.music_play{
-    background-color: var(--darker);
-    height: 80px; 
-    display:flex;
-    
-}
-.album_details, .audio{
-    flex-grow: 1;
-    
-}
-
-.controls{
-    flex-grow: 4;
-}
-
-.played{
-    background-color: var(--dark);
-    height:calc(100% - 80px);
-    overflow-y:scroll;
-}
-
+/*menu nav superior*/
 .nav{
      text-align: center;
      width: 60%;
@@ -162,6 +148,9 @@ img{
     list-style-type: none;
     color: var(--secondary-soft);
 }
+/*end menu nav*/
+
+/*region card */
 
 .title{
     color: var(--light);
@@ -183,7 +172,28 @@ img{
 .circle img{
     border-radius: 50%;
 }
+/*end region card*/
 
+
+
+/*music play/foot*/
+
+.music_play{
+    background-color: var(--darker);
+    height: 80px; 
+    display:flex;
+    
+}
+.album_details, .audio{
+    flex-grow: 1;
+    
+}
+
+.played{
+    background-color: var(--dark);
+    height:calc(100% - 80px);
+    overflow-y:scroll;
+}
 .album_details{
     display: flex;
 }
@@ -208,6 +218,7 @@ img{
 }
 
 .controls{
+    flex-grow: 4;
     margin-left: 1.5rem;
     font-size: 1.5rem; 
     text-align: center;
@@ -260,3 +271,5 @@ img{
     background-color: var(--light);
     border-radius: 1rem;
 }
+/* end music play*/
+
