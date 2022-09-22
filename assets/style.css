@@ -104,12 +104,12 @@ img{
 .music_play{
     background-color: var(--darker);
     height: 80px; 
-    display:flex ;
+    display:flex;
     
 }
 .album_details, .audio{
     flex-grow: 1;
-    background-color: var(--light);
+    
 }
 
 .controls{
@@ -127,6 +127,7 @@ img{
      width: 60%;
      height: 5%;
      margin: 0 auto;
+     padding-top: 0.5rem;
 }
 
 .nav li{
@@ -159,4 +160,51 @@ img{
 
 .circle img{
     border-radius: 50%;
+}
+
+.album_details{
+    display: flex;
+}
+.album_details img{
+    width: 17,5%;
+    padding: 0.5rem 0.5rem;
+    
+   
+}
+
+.title_mini h5{
+    margin-top: 0.75rem;
+}
+.title_mini h6{
+    margin-top: -0.5rem;
+}
+.icon i{
+    display: block;
+    margin: 1rem;
+    margin-bottom: -0.5rem;
+    color: var(--secondary-soft);
+}
+
+.controls{
+    text-align: center;
+    color: var(--light);
+    padding:0.5rem;
+}
+.controls i{
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.time{
+    
+    background-color: var(--secondary-soft);
+    height: 5%;
+    width: 50%;
+    margin:1rem auto;
+}
+
+.time_two{
+    height: 100%;
+    width: 20%;
+    background-color: var(--light);
 }
