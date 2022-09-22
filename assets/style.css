@@ -81,9 +81,14 @@ img{
     color: var(--secondry);
     padding-top: 0.5rem;
 }
+.playlist span{
+    background-color: var(--secondary-soft);
+    height: 50px;
+    width: 40%;
+}
 
 .upgrade{
-    display: flex;
+    
     background-color: var(--primary);
     height: 80px;
    
@@ -92,7 +97,7 @@ img{
 
 .button{
    text-align: end;
-  
+   border-radius: 2px solid white;
    padding: 1rem;
    
    
