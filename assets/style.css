@@ -15,8 +15,9 @@
 
 
 
-h2, h5{
+h2, h4, h5{
     color: var(--light);
+    padding: 0.5rem 0;
 }
 
 h6{
@@ -45,7 +46,7 @@ img{
 }
 
 #site_main{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
     overflow: hidden;
 }
  .p{
@@ -57,7 +58,7 @@ img{
 .menu{
     background-color: var(--dark);
     padding: 1rem;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
 }
 
 .menu img{
@@ -82,28 +83,61 @@ img{
 }
 
 .upgrade{
+    
     background-color: var(--primary);
-    height: 100px;
-    margin-left: -1.8rem;
+    height: 80px;
+   
+    
 }
 
+.button{
+   text-align: end;
+  
+   padding: 1rem;
+   
+   
+}
+.button a{
+    text-decoration: none;
+    color: var(--light);
+}
 .music_play{
     background-color: var(--darker);
-    height: 100px;  
+    height: 80px; 
+    display:flex ;
     
+}
+.album_details, .audio{
+    flex-grow: 1;
+    background-color: var(--light);
+}
+
+.controls{
+    flex-grow: 4;
 }
 
 .played{
     background-color: var(--dark);
-    height:calc(100% - 100px);
+    height:calc(100% - 80px);
     overflow-y:scroll;
 }
 
 .nav{
+     text-align: center;
      width: 60%;
      height: 5%;
-     background-color: grey;
      margin: 0 auto;
+}
+
+.nav li{
+    display: inline;
+    padding-left: 0.5rem;
+}
+
+.nav a{
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--secondary-soft);
 }
 
 .title{
@@ -113,12 +147,16 @@ img{
 }
 
 .card{
-    width: 80%;
+    width: 70%;
     margin-left: 1rem;
     text-align: center;
-    
+    margin-bottom: 0.5rem;
 }
 
 .card img{
     width: 100%;
+}
+
+.circle img{
+    border-radius: 50%;
 }
