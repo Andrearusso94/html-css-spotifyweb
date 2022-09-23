@@ -275,6 +275,18 @@ img{
 }
 /* end music play*/
 
+/*effects*/
+a:hover{
+   color: var(--light);
+}
+
+i:hover{
+    color: rgb(129, 183, 26);
+}
+
+h1:hover, h2:hover, h4:hover {
+    color: rgb(129, 183, 26);
+}
 
 
 
