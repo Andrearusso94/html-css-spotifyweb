@@ -433,4 +433,75 @@ img{
         }
         }
     
+        @media all and (min-width: 484px) and (max-width: 768px){
+
+            .small{
+                display: none;
+              }
+
+              .menu li{
+
+                font-size: 0.75rem;
+        
+              }
+              .square{
+            
+                padding:0.5rem;
+                
+            }
+
+              .profile img{
+                width: 10%;
+              }
+           
+            .col_3{
+                width: calc(100% / 12 * 3);
+            }
+           
+            .col_9{
+                width: calc(100% / 12 * 9);
+            }
+            .title{
+                font-size: 1rem;
+              }
+            .card{
+                width: 80%;
+              }
+
+            .nav{
+                width: 100%;
+                font-size: 0.65rem;
+            }
+            .album_details{
+                width: 20%;
+              }
+        
+              .album_details img{
+                margin-top: 1rem;
+                width: 40%;
+                height: 60%;
+              }
+              .controls{
+                padding:0;
+                font-size: 0.75rem;
+                margin: 1rem 0;
+              }
+              .controls i {
+                margin-left: 1.5rem;
+                font-size: 0.75rem;
+            }
+        
+            .audio{
+                width: 20%;
+            }
+    
+            .audio i{
+                font-size: 0.75rem;
+            }
+
+            .time{
+                width: 80%;
+            }
+
+        }
      
